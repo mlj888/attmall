@@ -1,6 +1,6 @@
 /*!
  * attmall
- * Copyright(c) mlj888<mljdev@126.com>
+ * Copyright(c) 2020 mlj888<mljdev@126.com>
  * MIT Licensed
  */
 
@@ -17,5 +17,5 @@ module.exports = {say:say}
  * @returns {string}
  */
 function say (str) {
-  return str+'您好，欢迎访问https://attmall.dhbm.cn';
+  return str+'您好，欢迎访问ATT商城';
 }

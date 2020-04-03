@@ -25,13 +25,13 @@ var attmall = require('attmall')
 
 
 ```js
-// 返回“开发者您好，欢迎访问https://attmall.dhbm.cn”
+// 返回“开发者您好，欢迎访问ATT商城”
 attmall.say('开发者')
 ```
 
 ## Examples
 
-### 页面上显示“用户您好，欢迎访问https://attmall.dhbm.cn”
+### 页面上显示“用户您好，欢迎访问ATT商城”
 
 ```js
 var http=require('http');
@@ -49,5 +49,5 @@ console.log('Server running at http://127.0.0.1:8888/');
 
 [MIT](http://opensource.org/licenses/MIT)
 
-[ver-image]: https://badgen.net/badge/version/v1.0.10/blue
+[ver-image]: https://badgen.net/badge/version/v1.0.11/blue
 [ver-url]: https://npmjs.org/package/attmall
