@@ -49,5 +49,5 @@ console.log('Server running at http://127.0.0.1:8888/');
 
 [MIT](http://opensource.org/licenses/MIT)
 
-[ver-image]: https://badgen.net/badge/version/v1.0.11/blue
+[ver-image]: https://badgen.net/badge/version/v1.0.12/blue
 [ver-url]: https://npmjs.org/package/attmall

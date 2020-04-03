@@ -1,6 +1,6 @@
 {
   "name": "attmall",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "ATT商城测试模块",
   "main": "index.js",
   "scripts": {
