@@ -17,5 +17,5 @@ module.exports = {say:say}
  * @returns {string}
  */
 function say (str) {
-  return str+'您好，欢迎访问ATT商城';
+  return str+'您好，欢迎光临';
 }

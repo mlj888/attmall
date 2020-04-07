@@ -25,29 +25,23 @@ var attmall = require('attmall')
 
 
 ```js
-// 返回“开发者您好，欢迎访问ATT商城”
+// 返回“开发者您好，欢迎光临”
 attmall.say('开发者')
 ```
 
 ## Examples
 
-### 页面上显示“用户您好，欢迎访问ATT商城”
+### 显示“用户您好，欢迎光临”
 
 ```js
-var http=require('http');
 var attmall=require('attmall');
 
-http.createServer(function(req, res){
-    res.setHeader('Content-Type', 'text/html')
-    res.end(attmall.say('用户'));
-}).listen(8888);
-
-console.log('Server running at http://127.0.0.1:8888/');
+console.log(attmall.say('用户'));
 ```
 
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
 
-[ver-image]: https://badgen.net/badge/version/v1.0.12/blue
+[ver-image]: https://badgen.net/badge/version/v1.0.14/blue
 [ver-url]: https://npmjs.org/package/attmall
